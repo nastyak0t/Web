@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "ServiceInjectionCalc";
+@inject WebApplication1.Services.Idispatcher Calculate
+}
+
+<h2>ServiceInjectionCalc</h2>
+<div>First number: @Calculate.value</div>
+<div>Second number: @Calculate.value2</div>
+<div>Plus: @Calculate.value + @Calculate.value2 = @Calculate.Plus()</div>
+<div>Minus: @Calculate.value - @Calculate.value2 = @Calculate.Min()</div>
+<div>Multiply: @Calculate.value * @Calculate.value2 = @Calculate.Multi()</div>
+<div>
+    Division: @Calculate.value / @Calculate.value2 = @if (Calculate.Div() == -1)
+    {
+        @: error
+    }
+    else
+    {
+        @Calculate.Div()
+    }
+</div>

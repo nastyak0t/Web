@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewData["Title"] = "ViewDataCalc";
+    var data = ViewData["data"] as WebApplication1.Models.MyModel;
+
+}
+
+<h2>ViewDataCalc</h2>
+<div>First number: @data.first</div>
+<div>Second number: @data.second</div>
+<div>Plus: @data.first + @data.second = @data.resPlus</div>
+<div>Minus: @data.first - @data.second = @data.resMin</div>
+<div>Multiply: @data.first * @data.second = @data.resMulti</div>
+<div>
+    Division: @data.first / @data.second = @if (data.resDiv == -1)
+    {
+        @: error
+    }
+    else
+    {
+        @data.resDiv
+    }
+</div>

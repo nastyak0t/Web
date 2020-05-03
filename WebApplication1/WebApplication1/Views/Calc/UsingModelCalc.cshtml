@@ -1,0 +1,24 @@
+﻿
+@model WebApplication1.Models.MyModel
+
+@{
+    ViewData["Title"] = "UsingModelCalc";
+}
+
+<h2>UsingModelCalc</h2>
+<div>First number: @Model.first</div>
+<div>Second number: @Model.second</div>
+<div>Plus: @Model.first + @Model.second = @Model.resPlus</div>
+<div>Minus: @Model.first - @Model.second = @Model.resMin</div>
+<div>Multiply: @Model.first * @Model.second = @Model.resMulti</div>
+<div>
+    Division: @Model.first / @Model.second = @if (Model.resDiv == -1)
+    {
+        @: error
+    }
+    else
+    {
+        @Model.resDiv
+    }
+
+</div>

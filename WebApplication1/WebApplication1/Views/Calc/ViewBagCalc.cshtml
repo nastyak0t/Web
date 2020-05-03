@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewData["Title"] = "ViewBagCalc";
+}
+
+<h2>ViewBagCalc</h2>
+<div>First number: @ViewBag.data.first</div>
+<div>Second number: @ViewBag.data.second</div>
+<div>Plus: @ViewBag.data.first + @ViewBag.data.second = @ViewBag.data.resPlus</div>
+<div>Minus: @ViewBag.data.first - @ViewBag.data.second = @ViewBag.data.resMin</div>
+<div>Multiply: @ViewBag.data.first * @ViewBag.data.second = @ViewBag.data.resMulti</div>
+<div>
+    Division: @ViewBag.data.first / @ViewBag.data.second = @if (ViewBag.data.resDiv == -1)
+    {
+        @: error
+    }
+    else
+    {
+        @ViewBag.data.resDiv
+    }
+</div>
