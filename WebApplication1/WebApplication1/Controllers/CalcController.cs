@@ -50,8 +50,9 @@ namespace WebApplication1.Controllers
 
         public MyModel Calculate()
         {
-            Random rnd = new Random(DateTime.Now.Millisecond);
-            (var value, var value2) = (rnd.Next() % 10, rnd.Next() % 10);
+            var rand = new Random();
+            int value = rand.Next(0, 10);
+            int value2 = rand.Next(0, 10);
 
             int divRes;
             try

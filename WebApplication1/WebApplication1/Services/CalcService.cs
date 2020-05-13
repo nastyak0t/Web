@@ -5,16 +5,17 @@ using System.Threading.Tasks;
 
 namespace WebApplication1.Services
 {
-    public class HTMLSender : Idispatcher
+    public class CalcService : ICalc
     {
         public int value { get; private set; }
         public int value2 { get; private set; }
-        public HTMLSender()
-        {
-            Random rnd = new Random();
 
-            value = rnd.Next() % 10;
-            value2 = rnd.Next() % 10;
+        public CalcService()
+        {
+            var rand = new Random();
+
+            value = rand.Next(0, 10);
+            value2 = rand.Next(0, 10);
 
         }
 

@@ -11506,11 +11506,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\uni\\labs\\6 семестр\\WEBBB\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+      "projectUniqueName": "C:\\Users\\Настя\\Documents\\GitHub\\Web\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
       "projectName": "WebApplication1",
-      "projectPath": "D:\\uni\\labs\\6 семестр\\WEBBB\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+      "projectPath": "C:\\Users\\Настя\\Documents\\GitHub\\Web\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
       "packagesPath": "C:\\Users\\Настя\\.nuget\\packages\\",
-      "outputPath": "D:\\uni\\labs\\6 семестр\\WEBBB\\WebApplication1\\WebApplication1\\obj\\",
+      "outputPath": "C:\\Users\\Настя\\Documents\\GitHub\\Web\\WebApplication1\\WebApplication1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
