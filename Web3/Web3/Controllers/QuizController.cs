@@ -54,11 +54,26 @@ namespace Lab3.Controllers
         }
 
         [HttpPost]
-        public IActionResult Finish()
+        public IActionResult Finish(string value1, string value2, string answer)
         {
+            int Value1 = Convert.ToInt32(value1);
+            int Value2 = Convert.ToInt32(value2);
+            int Answer = Convert.ToInt32(answer);
+
+            quiz.listResult.Add(Value1 + " + " + Value2 + " = " + Answer);
+            quiz.answersCount++;
+
+            if (Value1 + Value2 == Answer)
+            {
+                quiz.rightAnswersCount++;
+            }
+
+            ViewBag.numb1 = rnd.Next(10);
+            ViewBag.numb2 = rnd.Next(10);
             ViewBag.ListResult = quiz.listResult;
             ViewBag.RightAnswersCount = quiz.rightAnswersCount;
             ViewBag.AnswersCount = quiz.answersCount;
+            
             return View("quizResult");
         }
     }

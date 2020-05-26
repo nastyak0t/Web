@@ -71,7 +71,7 @@ using Web3.Models;
             WriteLiteral("\r\n<div class=\"row\">\r\n    <div class=\"col-md-3\">\r\n        ");
             EndContext();
             BeginContext(99, 792, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b399dc5f966f45b981fca5d1f91ae68f", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0332bd90214749a2969d565e6edfbf8d", async() => {
                 BeginContext(121, 129, true);
                 WriteLiteral("\r\n            <h2>Quiz</h2>            \r\n\r\n            <input name=\"value1\" class=\"form-control col-md-1\" style=\"display: inline\"");
                 EndContext();
@@ -96,7 +96,7 @@ WriteAttributeValue("", 436, ViewBag.numb2, 436, 14, false);
                 WriteLiteral("/>\r\n            <h4 class=\"col-md-1\" style=\"display: inline-flex\"> =</h4>\r\n\r\n            <input name=\"answer\" class=\"form-control\" placeholder=\"Answer\"/>\r\n            <br />\r\n            ");
                 EndContext();
                 BeginContext(638, 109, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("button", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "eadf826b2441475a84d85ce42595834b", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("button", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "53b7fd9b6fae48cabad98dd405dca7b3", async() => {
                     BeginContext(734, 4, true);
                     WriteLiteral("Next");
                     EndContext();
@@ -120,7 +120,7 @@ WriteAttributeValue("", 436, ViewBag.numb2, 436, 14, false);
                 WriteLiteral("\r\n            ");
                 EndContext();
                 BeginContext(761, 113, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("button", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c2559499efd24515b55db335307308af", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("button", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3237dfcd37d04949b0a4ca993bbbf40c", async() => {
                     BeginContext(859, 6, true);
                     WriteLiteral("Finish");
                     EndContext();

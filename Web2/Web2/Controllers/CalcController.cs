@@ -82,6 +82,13 @@ namespace Web2.Controllers
             return View("Result");
         }
 
+        [HttpGet]
+        public IActionResult Count2()
+        {
+            ViewData["Title"] = "ManualParsingInSeparateActions";
+            return View("Count1");
+        }
+
         [HttpPost, ActionName("Count2")]
         public IActionResult Count2Post()
         {
