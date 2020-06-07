@@ -44,16 +44,26 @@ namespace Lab4.Controllers
         [HttpGet]
         public IActionResult CheckBox()
         {
-            ViewBag.CheckBox = controls.CheckBox;
             return View();
         }
 
         [HttpPost]
-        public IActionResult Save_CheckBox(bool CheckBox)
+        public IActionResult CheckBox(bool isSelected)
         {
-            controls.CheckBox = CheckBox;
-            ViewBag.CheckBox = controls.CheckBox;
-            return View("CheckBox");
+            Controls cn = new Controls
+            {
+                ControlElement = "Check Box",
+                Name = "flag is"
+            };
+            if (isSelected == false)
+            {
+                cn.Result = "False";
+            }
+            else
+            {
+                cn.Result = "True";
+            }
+            return View("ResultControl", cn);
         }
 
         [HttpGet]

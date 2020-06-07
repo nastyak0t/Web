@@ -72,7 +72,7 @@ using Web4.Models;
             WriteLiteral("        ");
             EndContext();
             BeginContext(87, 1567, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "22ca3c6387a14f8db53ef2f342cd5e63", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1b64815a26b6479b80f6e17b41948651", async() => {
                 BeginContext(105, 1367, true);
                 WriteLiteral(@"
             <div class=""col-md-3"">
@@ -95,7 +95,7 @@ using Web4.Models;
                 ");
                 EndContext();
                 BeginContext(1472, 145, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("button", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "dc5a1e907e6c4d0ead31c973ba794d2d", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("button", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "122d72f6d9b2441bafc7449ac52e2e2d", async() => {
                     BeginContext(1604, 4, true);
                     WriteLiteral("Save");
                     EndContext();

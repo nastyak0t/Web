@@ -20,9 +20,6 @@ C:\Users\Настя\Documents\GitHub\Web\Web4\Web4\obj\Debug\netcoreapp2.1\Razor
 C:\Users\Настя\Documents\GitHub\Web\Web4\Web4\obj\Debug\netcoreapp2.1\Razor\Views\Controls\TextArea.g.cshtml.cs
 C:\Users\Настя\Documents\GitHub\Web\Web4\Web4\obj\Debug\netcoreapp2.1\Razor\Views\Controls\TextBox.g.cshtml.cs
 C:\Users\Настя\Documents\GitHub\Web\Web4\Web4\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
-C:\Users\Настя\Documents\GitHub\Web\Web4\Web4\obj\Debug\netcoreapp2.1\Razor\Views\MultyStaged\Index.g.cshtml.cs
-C:\Users\Настя\Documents\GitHub\Web\Web4\Web4\obj\Debug\netcoreapp2.1\Razor\Views\MultyStaged\ResetPassword.g.cshtml.cs
-C:\Users\Настя\Documents\GitHub\Web\Web4\Web4\obj\Debug\netcoreapp2.1\Razor\Views\MultyStaged\SignUp.g.cshtml.cs
 C:\Users\Настя\Documents\GitHub\Web\Web4\Web4\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
 C:\Users\Настя\Documents\GitHub\Web\Web4\Web4\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
 C:\Users\Настя\Documents\GitHub\Web\Web4\Web4\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
@@ -36,3 +33,11 @@ C:\Users\Настя\Documents\GitHub\Web\Web4\Web4\obj\Debug\netcoreapp2.1\Web4.
 C:\Users\Настя\Documents\GitHub\Web\Web4\Web4\obj\Debug\netcoreapp2.1\Web4.pdb
 C:\Users\Настя\Documents\GitHub\Web\Web4\Web4\obj\Debug\netcoreapp2.1\Web4.csproj.CopyComplete
 C:\Users\Настя\Documents\GitHub\Web\Web4\Web4\obj\Debug\netcoreapp2.1\Web4.csprojAssemblyReference.cache
+C:\Users\Настя\Documents\GitHub\Web\Web4\Web4\obj\Debug\netcoreapp2.1\Razor\Views\Controls\ResultControl.g.cshtml.cs
+C:\Users\Настя\Documents\GitHub\Web\Web4\Web4\obj\Debug\netcoreapp2.1\Razor\Views\Multy\Index.g.cshtml.cs
+C:\Users\Настя\Documents\GitHub\Web\Web4\Web4\obj\Debug\netcoreapp2.1\Razor\Views\Multy\ResetContinue.g.cshtml.cs
+C:\Users\Настя\Documents\GitHub\Web\Web4\Web4\obj\Debug\netcoreapp2.1\Razor\Views\Multy\ResetEnd.g.cshtml.cs
+C:\Users\Настя\Documents\GitHub\Web\Web4\Web4\obj\Debug\netcoreapp2.1\Razor\Views\Multy\ResetPassword.g.cshtml.cs
+C:\Users\Настя\Documents\GitHub\Web\Web4\Web4\obj\Debug\netcoreapp2.1\Razor\Views\Multy\SignUpFirst.g.cshtml.cs
+C:\Users\Настя\Documents\GitHub\Web\Web4\Web4\obj\Debug\netcoreapp2.1\Razor\Views\Multy\SignUpResult.g.cshtml.cs
+C:\Users\Настя\Documents\GitHub\Web\Web4\Web4\obj\Debug\netcoreapp2.1\Razor\Views\Multy\SignUpSecond.g.cshtml.cs

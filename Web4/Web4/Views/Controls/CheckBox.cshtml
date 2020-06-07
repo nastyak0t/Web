@@ -1,27 +1,8 @@
-﻿
-@{
+﻿@{
     ViewData["Title"] = "CheckBox";
-    if (ViewBag.CheckBox == null)
-    {
-        <form class="row">
-            <div class="col-md-3">
-                <h2>CheckBox</h2>
-                <br />
-                <input name="CheckBox" type="checkbox" class="form-check-input col-md-1" style="display: inline" id="ChackBox1"/>
-                <label class="form-check-label" for="CheckBox1">
-                    Select
-                </label>
-                <br />
-                <button formmethod="post" formaction="~/Controls/Save_CheckBox" class="btn btn-primary col-md-3" style="display: inline" type="submit">Save</button>
-            </div>
-        </form>
-    }
-    else
-    {
-        <h2>CheckBox</h2>
-        <br />
-        <h3><b>Selected:</b></h3>
-        <h3>@ViewBag.CheckBox</h3>
-    }
-        
 }
+<h2>Check Box</h2>
+<form method="post">
+    <input type="checkbox" name="isSelected" value="true" /><label>&nbsp;Selected</label><br />
+    <input class="btn btn-primary col-md-auto" style="display: inline" type="submit" value="Save" />
+</form>
